@@ -14,7 +14,7 @@ updates:
     open-pull-requests-limit: 5
     # Add reviewers and assignees
     reviewers:
-      - "your-github-username" # Replace with your actual GitHub username
+      - "eiriksanderfjeld" # Replace with your actual GitHub username
     # Group all dependency updates together
     groups:
       all-updates:
