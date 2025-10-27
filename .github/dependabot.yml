@@ -1,0 +1,26 @@
+# Configuration for Dependabot
+# See: https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  # Enable version updates for npm
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly" # This is just an example of how Dependabot can be scheduled!
+      day: "monday"
+      time: "09:00"
+    # Limit the number of open PRs for version updates
+    open-pull-requests-limit: 5
+    # Add reviewers and assignees
+    reviewers:
+      - "your-github-username" # Replace with your actual GitHub username
+    # Group all dependency updates together
+    groups:
+      all-updates:
+        patterns:
+          - "*"
+        update-types:
+          - "major"
+          - "minor"
+          - "patch"
