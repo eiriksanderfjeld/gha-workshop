@@ -1,6 +1,6 @@
 # Human-readable name for the workflow. These are optional, but recommended.
 # Names make it much easier to identify workflows by name in the GitHub Actions UI.
-name: Pull Request Workflow 🌏
+name: Pull Request Workflow - PR 🌏
 
 # Trigger the workflow "on" every push to any branch
 # (keep in mind, the branch must be pushed to GitHub)
